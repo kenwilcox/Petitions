@@ -13,8 +13,7 @@
 		BE6489B91BF4637900C186E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6489B71BF4637900C186E1 /* Main.storyboard */; };
 		BE6489BB1BF4637900C186E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6489BA1BF4637900C186E1 /* Assets.xcassets */; };
 		BE6489BE1BF4637900C186E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6489BC1BF4637900C186E1 /* LaunchScreen.storyboard */; };
-		BED2FCE91BF463D900C6DD39 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BED2FCE71BF463D900C6DD39 /* LICENSE */; };
-		BED2FCEA1BF463D900C6DD39 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BED2FCE81BF463D900C6DD39 /* README.md */; };
+		BED2FCE91BF463D900C6DD39 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = BED2FCE71BF463D900C6DD39 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,7 @@
 		BE6489BA1BF4637900C186E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE6489BD1BF4637900C186E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE6489BF1BF4637900C186E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BED2FCE71BF463D900C6DD39 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BED2FCE71BF463D900C6DD39 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BED2FCE81BF463D900C6DD39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +43,7 @@
 		BE6489A51BF4637900C186E1 = {
 			isa = PBXGroup;
 			children = (
-				BED2FCE71BF463D900C6DD39 /* LICENSE */,
+				BED2FCE71BF463D900C6DD39 /* LICENSE.md */,
 				BED2FCE81BF463D900C6DD39 /* README.md */,
 				BE6489B01BF4637900C186E1 /* Petitions */,
 				BE6489AF1BF4637900C186E1 /* Products */,
@@ -133,7 +132,7 @@
 			files = (
 				BE6489BE1BF4637900C186E1 /* LaunchScreen.storyboard in Resources */,
 				BE6489BB1BF4637900C186E1 /* Assets.xcassets in Resources */,
-				BED2FCE91BF463D900C6DD39 /* LICENSE in Resources */,
+				BED2FCE91BF463D900C6DD39 /* LICENSE.md in Resources */,
 				BE6489B91BF4637900C186E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +146,6 @@
 			files = (
 				BE6489B61BF4637900C186E1 /* DetailViewController.swift in Sources */,
 				BE6489B41BF4637900C186E1 /* MasterViewController.swift in Sources */,
-				BED2FCEA1BF463D900C6DD39 /* README.md in Sources */,
 				BE6489B21BF4637900C186E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
