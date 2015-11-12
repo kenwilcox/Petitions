@@ -14,6 +14,7 @@
 		BE6489BB1BF4637900C186E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6489BA1BF4637900C186E1 /* Assets.xcassets */; };
 		BE6489BE1BF4637900C186E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6489BC1BF4637900C186E1 /* LaunchScreen.storyboard */; };
 		BED2FCE91BF463D900C6DD39 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = BED2FCE71BF463D900C6DD39 /* LICENSE.md */; };
+		BED2FCEC1BF4694C00C6DD39 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED2FCEB1BF4694C00C6DD39 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		BE6489BF1BF4637900C186E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BED2FCE71BF463D900C6DD39 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BED2FCE81BF463D900C6DD39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BED2FCEB1BF4694C00C6DD39 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		BE6489B01BF4637900C186E1 /* Petitions */ = {
 			isa = PBXGroup;
 			children = (
+				BED2FCEB1BF4694C00C6DD39 /* SwiftyJSON.swift */,
 				BE6489B11BF4637900C186E1 /* AppDelegate.swift */,
 				BE6489B31BF4637900C186E1 /* MasterViewController.swift */,
 				BE6489B51BF4637900C186E1 /* DetailViewController.swift */,
@@ -147,6 +150,7 @@
 				BE6489B61BF4637900C186E1 /* DetailViewController.swift in Sources */,
 				BE6489B41BF4637900C186E1 /* MasterViewController.swift in Sources */,
 				BE6489B21BF4637900C186E1 /* AppDelegate.swift in Sources */,
+				BED2FCEC1BF4694C00C6DD39 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
