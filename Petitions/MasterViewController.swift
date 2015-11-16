@@ -16,7 +16,13 @@ class MasterViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    let urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
+    let urlString: String
+    
+    if navigationController?.tabBarItem.tag == 0 {
+      urlString = "https://api.whitehouse.gov/v1/petitions.json?limit=100"
+    } else {
+      urlString = "https://api.whitehouse.gov/v1/petitions.json?signatureCountFloor=10000&limit=100"
+    }
     
     if let url = NSURL(string: urlString) {
       if let data = try? NSData(contentsOfURL: url, options: []) {
