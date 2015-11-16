@@ -13,9 +13,16 @@ class DetailViewController: UIViewController {
   var webView: WKWebView!
   var detailItem: [String: String]!
   
+  @IBOutlet weak var doneButton: UIBarButtonItem!
+  
   override func loadView() {
     webView = WKWebView()
     view = webView
+    
+    if UIDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad {
+      self.doneButton.enabled = false
+      self.doneButton.tintColor = UIColor.clearColor()
+    }
   }
   
   override func viewDidLoad() {
@@ -35,5 +42,9 @@ class DetailViewController: UIViewController {
       html += "</html>"
       webView.loadHTMLString(html, baseURL: nil)
     }
+  }
+  
+  @IBAction func doneButtonPressed(sender: AnyObject) {
+    dismissViewControllerAnimated(true, completion: nil)
   }
 }
